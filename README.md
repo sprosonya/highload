@@ -109,7 +109,6 @@ NGINX
 | date                  | timeswamp  | 8              |
 | isRead                | bool       | 1              |
 | folder_id             | int        | 4              |
-| owner_email           | text       | 255            |
 | updated_at            | timeswamp  | 8              |
 | is_draft              | bool       | 1              |
 | **Итого**             |            | **540**        |
