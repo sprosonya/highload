@@ -106,10 +106,10 @@ NGINX
 | sender_email          | text       | 255            |
 | recipient_email       | text       | 255            |
 | message_id            | int        | 4              |
-| date                  | timeswamp  | 8              |
+| date                  | timestamp  | 8              |
 | isRead                | bool       | 1              |
 | folder_id             | int        | 4              |
-| updated_at            | timeswamp  | 8              |
+| updated_at            | timestamp  | 8              |
 | is_draft              | bool       | 1              |
 | **Итого**             |            | **540**        |
 
@@ -126,8 +126,8 @@ NGINX
 | username     | text       | 255            |
 | password     | text       | 255            |
 | avatar_url   | text       | 255            |
-| created_at   | timeswamp  | 8              |
-| updated_at   | timeswamp  | 8              |
+| created_at   | timestamp  | 8              |
+| updated_at   | timestamp  | 8              |
 | **Итого**    |            | **1040**       |
 
 Объем 1040 * 100 млн = 1 гб  
@@ -139,8 +139,8 @@ NGINX
 | id           | int        | 4              |
 | title        | text       | 255            |
 | description  | text       | 255            |
-| created_at   | timeswamp  | 8              |
-| updated_at   | timeswamp  | 8              |
+| created_at   | timestamp  | 8              |
+| updated_at   | timestamp  | 8              |
 | **Итого**    |            | **530**        |
 
 Объем 530 * 100 m = 505 мб  
@@ -167,8 +167,8 @@ NGINX
 | order_number     | int        | 4              |
 | name             | text       | 255            |
 | parent_folder_id | int        | 4              |
-| created_at       | timeswamp  | 8              |
-| updated_at       | timeswamp  | 8              |
+| created_at       | timestamp  | 8              |
+| updated_at       | timestamp  | 8              |
 | **Итого**        |            | **287**        |
 
 Чтение 20175 мбит/с  
