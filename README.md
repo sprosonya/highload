@@ -111,6 +111,7 @@ NGINX
 | folder_id             | int        | 4              |
 | owner_email           | text       | 255            |
 | updated_at            | timeswamp  | 8              |
+| is_draft              | bool       | 1              |
 | **Итого**             |            | **540**        |
 
 Объем 540 * 100 m = 514 мб  
