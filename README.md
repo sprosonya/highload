@@ -303,6 +303,9 @@ RPS отправка письма 115 + просмотр письма с вло�
 | VK Cloud Icebox| vkcloud | 48PB Storage / 1PB Out Traffic   | -     | 1    | -             | 51.84M₽ (~570k$)|
 | k8s-cluster| vkcloud   | 10x(1CPU/64GB/20HDD) + LB        | 80| 10  | -        | 165,562₽/мес|
 
+### Презентация (черновик)
+https://docs.google.com/presentation/d/1ZHeDCVgibnvxEd7Yey8N097Jg1762YRYZGifeb69R4M/edit?usp=sharing
+
 ## Список источников
 [^1]: [Годовой отчет VK Group](https://corp.vkcdn.ru/media/files/VK_AR2023_RUS_06.06_3KIGigO.pdf)
 [^2]: [Квартальный отчет VK Group](https://corp.vkcdn.ru/media/files/RUS_Press_Release_9M_2024.pdf)
